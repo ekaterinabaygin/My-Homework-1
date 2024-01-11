@@ -13,5 +13,7 @@ class MainActivity : AppCompatActivity() {
         val car = Transport.Car("Toyota", "Camry")
         val bicycle = Transport.Bicycle("Mountain")
 
+        describeTransport(car)
+        describeTransport(bicycle)
     }
 }
